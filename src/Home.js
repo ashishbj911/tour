@@ -31,7 +31,7 @@ export const Home = () => {
     setTours(newTour)
  }
   if (loading) {
-    return <img src={loader} className="load-img"/>;
+    return <img src={loader} className="load-img" alt="loader"/>;
   }
   if (error) {
     return <h1 className="text-center">There is some Error</h1>;

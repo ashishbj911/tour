@@ -52,6 +52,7 @@ body {
   color: #f00;
   text-transform: uppercase;
   font-weight: 600;
+  cursor: pointer;
 }
 .tours-main > article .info h1,
 .tours-main > article .info p {
